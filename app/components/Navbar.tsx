@@ -15,29 +15,7 @@ import { usePathname } from "next/navigation";
 import React from "react";
 import MobileMenu from "./MobileMenu";
 import { cn } from "@/lib/utils";
-
-export const navigationItems = [
-  {
-    name: "Home",
-    href: "/",
-  },
-  {
-    name: "About",
-    href: "/about",
-  },
-  {
-    name: "Projects",
-    href: "/projects",
-  },
-  {
-    name: "Contact",
-    href: "/contact",
-  },
-  {
-    name: "Resume",
-    href: "/resume",
-  },
-];
+import { navigationItems } from "@/lib/assets";
 
 const Navbar = () => {
   const pathname = usePathname();

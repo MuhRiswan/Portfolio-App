@@ -9,6 +9,7 @@ import {
 import { Sparkles } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import { heroContent } from "@/lib/assets";
 
 const HeroContent = () => {
   return (
@@ -24,7 +25,7 @@ const HeroContent = () => {
         >
           <Sparkles className="w-5 h-5 text-blue-600 mr-[10px]" />
           <h1 className="text-badge text-sm sm:text-base md:text-xl">
-            Front End Developer
+            {heroContent.title}
           </h1>
         </motion.div>
 
@@ -43,9 +44,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-slate-400 max-w-[600px] w-auto h-auto sm:text-base md:text-lg"
         >
-          Crafting dazzling digital experiences with 10 months+ of expertise in
-          Front End Web Development. Explore my portfolio to witness your
-          visions come alive.
+          {heroContent.description}
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
