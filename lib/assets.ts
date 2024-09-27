@@ -187,4 +187,126 @@ export const aboutContent = {
 export const projectContent = {
   title: "My Project",
   description: `A small selection of recent projects`,
+  projects: [
+    {
+      id: "0",
+      img: "/img/projects/project-1.svg",
+      imgTitle: "Gier - Dashboard Analytics",
+      title: "Gier App, Serba Mulia Group",
+      description:
+        "Gier App is a dashboard analytics application built with Next.js, TypeScript, Tremor UI, and Tailwind CSS. The application is designed to help business units streamline their work and reduce manual labor. The application includes a dashboard that displays key metrics and KPIs, as well as tools for data visualization and reporting.",
+      tech: [
+        {
+          id: "0",
+          img: "/img/icons/react-js.svg",
+        },
+        {
+          id: "1",
+          img: "/img/icons/next-js.svg",
+        },
+        {
+          id: "2",
+          img: "/img/icons/typescript.svg",
+        },
+        {
+          id: "3",
+          img: "/img/icons/tailwind-css.svg",
+        },
+        {
+          id: "4",
+          img: "/img/icons/tremor.svg",
+        },
+      ],
+    },
+    {
+      id: "1",
+      img: "/img/projects/project-2.svg",
+      imgTitle: "LMS - Learning Management System",
+      title: "LMS App, Serba Mulia Group",
+      description:
+        "LMS (Learning Management System) is a application that provides video/learning materials for employees of Serba Mulia Group. The application includes features such as user authentication, course creation, video uploading, and user progress tracking. The application is designed to be user-friendly and easy to use, with a modern and responsive design",
+      tech: [
+        {
+          id: "0",
+          img: "/img/icons/react-js.svg",
+        },
+        {
+          id: "1",
+          img: "/img/icons/next-js.svg",
+        },
+        {
+          id: "2",
+          img: "/img/icons/typescript.svg",
+        },
+        {
+          id: "3",
+          img: "/img/icons/tailwind-css.svg",
+        },
+        {
+          id: "4",
+          img: "/img/icons/shadcn.svg",
+        },
+      ],
+    },
+    {
+      id: "2",
+      img: "/img/projects/project-3.svg",
+      imgTitle: "Management System - Employee Management System",
+      title: "Management App, Serba Mulia Auto",
+      description:
+        "I built an employee management system using Laravel Inertia React JS. The application is designed to help employees manage their workload by providing an user-friendly interface for them to track their tasks, projects, and progress. The application also allows for real-time communication between employees and their managers, making it easier for them to collaborate and stay on top of their work.",
+      tech: [
+        {
+          id: "0",
+          img: "/img/icons/laravel.svg",
+        },
+        {
+          id: "1",
+          img: "/img/icons/react-js.svg",
+        },
+        {
+          id: "2",
+          img: "/img/icons/inertia.svg",
+        },
+        {
+          id: "3",
+          img: "/img/icons/tailwind-css.svg",
+        },
+        {
+          id: "4",
+          img: "/img/icons/shadcn.svg",
+        },
+      ],
+    },
+    {
+      id: "3",
+      img: "/img/projects/project-4.svg",
+      imgTitle: "Company Profile - Piagio Vista Motor",
+      title: "Company Profile App, Serba Mulia Auto",
+      description:
+        "I built a company profile application for a business unit using Next.js, TypeScript, and Shadcn UI. The application displays information and branding for the dealer Vista Motor, which sells various vehicles from the Piagio brand. The application is designed to be user-friendly and modern, with a responsive design.",
+      tech: [
+        {
+          id: "0",
+          img: "/img/icons/react-js.svg",
+        },
+        {
+          id: "1",
+          img: "/img/icons/next-js.svg",
+        },
+        {
+          id: "2",
+          img: "/img/icons/typescript.svg",
+        },
+        {
+          id: "3",
+          img: "/img/icons/tailwind-css.svg",
+        },
+        {
+          id: "4",
+          img: "/img/icons/shadcn.svg",
+        },
+      ],
+    },
+  ],
 };
