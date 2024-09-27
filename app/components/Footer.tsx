@@ -63,8 +63,8 @@ const Footer = () => {
             <p className="font-semibold text-xl text-gray-900">Social Media</p>
             <div className="flex flex-col items-start mt-5  text-gray-600">
               <p className=" transition-colors duration-300 ">
-                Let's work together or have a chat about a project you have in
-                mind. Feel free to contact me on my social media platforms.
+                Let&apos;s work together or have a chat about a project you have
+                in mind. Feel free to contact me on my social media platforms.
               </p>
               <div className="grid grid-cols-4 mt-2 gap-2">
                 <Link
