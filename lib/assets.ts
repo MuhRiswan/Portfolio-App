@@ -37,38 +37,93 @@ export const aboutContent = {
   digital experiences.`,
   mainIcon: "/img/coding/code.svg",
   alt: "Code",
-  //   childIcons: [
-  //     {
-  //       id: 1,
-  //       icon: "/img/coding/discord.svg",
-  //       alt: "discord",
-  //     },
-  //     {
-  //       id: 2,
-  //       icon: "/img/coding/github.svg",
-  //       alt: "github",
-  //     },
-  //     {
-  //       id: 3,
-  //       icon: "/img/coding/figma.svg",
-  //       alt: "figma",
-  //     },
-  //     {
-  //       id: 4,
-  //       icon: "/img/coding/jira.svg",
-  //       alt: "jira",
-  //     },
-  //     {
-  //       id: 5,
-  //       icon: "/img/coding/slack.svg",
-  //       alt: "slack",
-  //     },
-  //     {
-  //       id: 6,
-  //       icon: "/img/coding/vscode.svg",
-  //       alt: "vscode",
-  //     },
-  //   ],
+  // tabs: ["About", "Skills"],
+  education: [
+    {
+      id: "0",
+      title: "Front End & React Developer",
+      description: "Dicoding",
+      date: "2022",
+    },
+    {
+      id: "1",
+      title: "Bachelor of Computer Science",
+      description: "University of Singaperbangsa Karawang",
+      date: "2020 - 2024",
+    },
+  ],
+  certifications: [
+    {
+      id: "0",
+      title: "Dicoding",
+      description: "Back End Developer Beginner",
+      date: "2024",
+    },
+    {
+      id: "1",
+      title: "Dicoding",
+      description: "Fundamental React Js",
+      date: "2022",
+    },
+    {
+      id: "2",
+      title: "Dicoding",
+      description: "Front End Web Developer Expert",
+      date: "2022",
+    },
+  ],
+  skills: [
+    {
+      id: "0",
+      icon: "/img/icons/typescript.svg",
+      title: "TypeScript",
+    },
+    {
+      id: "1",
+      icon: "/img/icons/javascript.svg",
+      title: "JavaScript",
+    },
+    {
+      id: "2",
+      icon: "/img/icons/react-js.svg",
+      title: "React",
+    },
+    {
+      id: "3",
+      icon: "/img/icons/next-js.svg",
+      title: "Next.js",
+    },
+    {
+      id: "4",
+      icon: "/img/icons/tailwind-css.svg",
+      title: "Tailwind",
+    },
+    {
+      id: "5",
+      icon: "/img/icons/figma.svg",
+      title: "Figma",
+    },
+    {
+      id: "6",
+      icon: "/img/icons/github.svg",
+      title: "Github",
+    },
+    {
+      id: "7",
+      icon: "/img/icons/node-js.svg",
+      title: "Node.js",
+    },
+    {
+      id: "8",
+      icon: "/img/icons/postgreSql.svg",
+      title: "PostgreSQL",
+    },
+    {
+      id: "9",
+      icon: "/img/icons/rest-api.svg",
+      title: "REST API",
+    },
+  ],
   childIcons: [
     {
       id: "0",
@@ -127,10 +182,9 @@ export const aboutContent = {
       height: 32,
     },
   ],
-  //   icon: {
-  //     main: {
-  //       icon: "../public/img/coding/code.svg",
-  //       alt: "Code",
-  //     },
-  //   },
+};
+
+export const projectContent = {
+  title: "My Project",
+  description: `A small selection of recent projects`,
 };
