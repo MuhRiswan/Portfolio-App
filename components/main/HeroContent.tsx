@@ -27,7 +27,7 @@ const HeroContent = () => {
           {heroContent.description}
         </p>
         <a
-          href="#project"
+          href="#projects"
           className="py-2 button-primary text-center text-white cursor-pointer  w-full max-w-[200px] rounded-lg sm:py-3 sm:px-4 md:py-4 md:px-6"
         >
           View Projects

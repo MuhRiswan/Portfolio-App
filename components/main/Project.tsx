@@ -6,7 +6,10 @@ import Image from "next/image";
 
 const Project = () => {
   return (
-    <Card className="border-0 container md:mt-30 py-10 w-full z-[20]">
+    <Card
+      id="projects"
+      className="border-0 container md:mt-30 pt-28 pb-10 w-full z-[20]"
+    >
       <div className="flex text-center items-center justify-center">
         <div className="flex flex-col w-full max-w-[600px] gap-5 text-center items-center justify-center">
           <div className="box-badge py-1 px-4 border-2 border-blue-700/90">

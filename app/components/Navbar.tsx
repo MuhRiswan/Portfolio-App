@@ -60,7 +60,7 @@ const Navbar = () => {
                 <NavigationMenuItem key={index}>
                   <Link href={item.href} legacyBehavior passHref>
                     <NavigationMenuLink
-                      active={pathname === item.href}
+                      // active={pathname === item.href}
                       className={cn(
                         navigationMenuTriggerStyle(),
                         "text-blue-400 hover:text-blue-600 focus:text-blue-600 bg-transparent hover:bg-blue-100/80 focus:bg-blue-100/80"

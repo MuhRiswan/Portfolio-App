@@ -10,7 +10,10 @@ const iconSize = 3.2; // ukuran ikon dalam rem
 
 const About = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 items-start container mx-auto md:mt-30 py-10 w-full z-[20] gap-8">
+    <div
+      id="about"
+      className="grid grid-cols-1 md:grid-cols-2 items-start container mx-auto md:mt-30 pt-28 pb-10 w-full z-[20] gap-8"
+    >
       {/* Left Side */}
       <div className="h-full w-full flex flex-col gap-5 text-start">
         <div className="box-badge py-1 px-4 border-2 border-blue-700/90 flex items-center">

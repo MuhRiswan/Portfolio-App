@@ -6,20 +6,20 @@ export const navigationItems = [
   },
   {
     name: "About",
-    href: "/about",
+    href: "/#about",
   },
   {
     name: "Projects",
-    href: "/projects",
+    href: "/#projects",
   },
-  {
-    name: "Contact",
-    href: "/contact",
-  },
-  {
-    name: "Resume",
-    href: "/resume",
-  },
+  // {
+  //   name: "Contact",
+  //   href: "/#contact",
+  // },
+  // {
+  //   name: "Resume",
+  //   href: "/#resume",
+  // },
 ];
 
 export const heroContent = {
